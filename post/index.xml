@@ -13,71 +13,15 @@
     
     <item>
       <title>R - ggplot2 error solution </title>
-      <link>http://codingmeee.github.io/post/r-ggplot2-error-solution/</link>
+      <link>http://codingmeee.github.io/post/r/r-ggplot2-error-solution/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://codingmeee.github.io/post/r-ggplot2-error-solution/</guid>
+      <guid>http://codingmeee.github.io/post/r/r-ggplot2-error-solution/</guid>
       <description>R - ggplot2 설치 오류 해결 ggplot2가 실행 되지 않아 (정확히 말하면 vctrs 패키지 설치 오류) 해결 방법을 공유 합니다.
 ggplot2을 아래와 같이 설치 하였습니다.
 install.packages(&amp;#34;ggplot2&amp;#34;) 그리고 아래와 같이 라이브러리를 로드 하였습니다.
 하지만, 에러가 나와서 당황했습니다.
 &amp;gt; library(ggplot2) 에러: package or namespace load failed for ‘ggplot2’: .onLoad가 loadNamespace()에서 &amp;#39;pillar&amp;#39;때문에 실패했습니다: 호출: utils::packageVersion(&amp;#34;vctrs&amp;#34;) 에러: ‘vctrs’이라고 불리는 패키지가 없습니다 패키지가 설치 되지 않았구나&amp;hellip; 하고 아래와 같은 명령어로 패키지를 설치하려 했으나, 에러가 납니다.</description>
-    </item>
-    
-    <item>
-      <title>Soho Theme</title>
-      <link>http://codingmeee.github.io/post/soho/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/soho/</guid>
-      <description>Soho is a minimalist two-column hugo theme based on Hyde and inspired by the success of Flex.
-Features  Mobile First Responsive Semantic SEO Best Practices Open Graph Rich Snippets (JSON-LD) Twitter Card Pagination Customizable Support all Hugo Internals  Integrations  Disqus Google Analytics  </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://codingmeee.github.io/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>http://codingmeee.github.io/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://codingmeee.github.io/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://codingmeee.github.io/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://codingmeee.github.io/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R - ggplot2 error solution </title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/navbar.css" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+
+    
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/assets/css/single.css" />
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-xxxxxxxx', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body>
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    <nav class="navbar navbar-expand-lg top-navbar final-navbar shadow">
+    <div class="container">
+      <a class="navbar-brand" href="http://codingmeee.github.io">
+        <img src="/assets/images/logo.png">Codingmeee</a>
+      <button class="navbar-toggler navbar-light" type="button" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="top-nav-items">
+        <ul class="navbar-nav ml-auto">
+        </ul>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+
+      
+      
+<div class="container p-0 read-area">
+  
+  <div class="hero-area col-sm-12" style='background-image: url(/assets/images/default-hero.jpg);'>
+  </div>
+
+  
+  <div class="page-content">
+    <div class="author-profile ml-auto align-self-lg-center">
+      <img class="rounded-circle" src='/assets/images/default-avatar.png'/>
+      <h5 class="author-name">John Doe</h5>
+      <p>June 17, 2020</p>
+    </div>
+
+    <div class="title">
+      <h1>R - ggplot2 error solution </h1>
+    </div>
+
+    <div class="post-content">
+      <h2 id="r---ggplot2-설치-오류-해결">R - ggplot2 설치 오류 해결</h2>
+<p>ggplot2가 실행 되지 않아 (정확히 말하면 vctrs 패키지 설치 오류) 해결 방법을 공유 합니다.</p>
+<p>ggplot2을 아래와 같이 설치 하였습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;ggplot2&#34;</span>)
+</code></pre></div><p>그리고 아래와 같이 라이브러리를 로드 하였습니다.</p>
+<p>하지만, 에러가 나와서 당황했습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">library</span>(ggplot2)
+에러<span style="color:#f92672">:</span> package or namespace load failed for ‘ggplot2’<span style="color:#f92672">:</span>
+ .onLoad가 <span style="color:#a6e22e">loadNamespace</span>()에서 <span style="color:#e6db74">&#39;pillar&#39;</span>때문에 실패했습니다<span style="color:#f92672">:</span>
+  호출<span style="color:#f92672">:</span> utils<span style="color:#f92672">::</span><span style="color:#a6e22e">packageVersion</span>(<span style="color:#e6db74">&#34;vctrs&#34;</span>)
+  에러<span style="color:#f92672">:</span> ‘vctrs’이라고 불리는 패키지가 없습니다
+</code></pre></div><p>패키지가 설치 되지 않았구나&hellip; 하고 아래와 같은 명령어로 패키지를 설치하려 했으나, 에러가 납니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;vctrs&#34;</span>)
+WARNING<span style="color:#f92672">:</span> Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding<span style="color:#f92672">:</span>
+
+https<span style="color:#f92672">://</span>cran.rstudio.com<span style="color:#f92672">/</span>bin<span style="color:#f92672">/</span>windows<span style="color:#f92672">/</span>Rtools<span style="color:#f92672">/</span>
+Installing package into ‘C<span style="color:#f92672">:/</span>Users<span style="color:#f92672">/</span>YooWS<span style="color:#f92672">/</span>Documents<span style="color:#f92672">/</span>R<span style="color:#f92672">/</span>win<span style="color:#f92672">-</span>library<span style="color:#f92672">/</span><span style="color:#ae81ff">4.0</span>’
+(as ‘lib’ is unspecified)
+URL <span style="color:#e6db74">&#39;https://cran.rstudio.com/bin/windows/contrib/4.0/vctrs_0.3.1.zip&#39;</span>을 시도합니다
+Warning in install.packages <span style="color:#f92672">:</span>
+  cannot open URL <span style="color:#e6db74">&#39;https://cran.rstudio.com/bin/windows/contrib/4.0/vctrs_0.3.1.zip&#39;</span><span style="color:#f92672">:</span> HTTP status was <span style="color:#e6db74">&#39;404 Not Found&#39;</span>
+Error in <span style="color:#a6e22e">download.file</span>(url, destfile, method, mode <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;wb&#34;</span>, <span style="color:#66d9ef">...</span>) <span style="color:#f92672">:</span> 
+  URL <span style="color:#e6db74">&#39;https://cran.rstudio.com/bin/windows/contrib/4.0/vctrs_0.3.1.zip&#39;</span>를 열 수 없습니다
+Warning in install.packages <span style="color:#f92672">:</span>
+  download of package ‘vctrs’ failed
+</code></pre></div><p>결국, 패키지를 직접 설치하자! 라는 다짐으로 vctrs 패키지 링크로 점프를 하였습니다.
+<a href="https://cran.r-project.org/web/packages/vctrs/index.html">vctrs 0.3.1.zip</a></p>
+<p>해당 페이지에 있는 vctrs를 다운 받은후, 기본 패키지 설치로 복사해 줍니다.</p>
+<p>C:\Users[개인이름]\Documents\R\win-library\4.0</p>
+<p>다행이 ggplot2라이브러리가 제대로 로딩이 되고 그래프도 잘 표시해 줍니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">library</span>(ggplot2)
+<span style="color:#a6e22e">qplot</span>(x)
+
+</code></pre></div><img src="https://postfiles.pstatic.net/MjAyMDA2MTNfMTcz/MDAxNTkyMDA3Mjg1Mzc4.aTt3UCKOyKYt7Ric7lF68m47PoHYQvdN8HWe7xk8vcQg.pdlR4sg9uH5danfauUGmRBhuK1p-fbqRxkaYj9C1dYkg.PNG.codingme/image.png?type=w773">
+
+    </div>
+
+    
+    
+      <div class="btn-improve-page">
+          <a href="https://github.com/codingmeee/codingmeee.github.io/edit/master/content/post%5cR%5c2020-06-17-r-ggplot2-%ec%84%a4%ec%b9%98-%ec%98%a4%eb%a5%98-%ed%95%b4%ea%b2%b0.md">
+            <i class="fas fa-code-branch"></i>
+            Improve This Page
+          </a>
+      </div>
+    
+
+    
+  <hr />
+  <div class="row next-prev-navigator">
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/post/markdown/soho/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Soho Theme</span>
+          </a>
+        </div>
+        
+      
+    
+  </div>
+  <hr />
+  
+  
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "does-not-exist";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+<a href="https://disqus.com/" class="dsq-brlink"
+  >comments powered by <span class="logo-disqus">Disqus</span></a
+>
+
+  
+</div>
+
+    </div>
+
+    <footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+          <ul>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#home">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#skills">Skills</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#experiences">Experiences</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#recent-posts">Recent Posts</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="#achievements">Achievements</a>
+            </li>
+            
+          </ul>
+        
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact Me</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>codingmeee@gmail.com</span></li>
+          
+          <li><span>Phone: </span> <span>&#43;821022222726</span></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        
+        <p>Stay up to date with email notification</p>
+        <form>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/assets/images/logo-inverted.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4">© 2019 Copyright.</div>
+      <div class="col-md-4">
+        Powered by <a href="https://gohugo.io/">Hugo
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/jquery.filterizr.min.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/assets/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
