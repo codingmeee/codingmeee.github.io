@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Toha</title>
+    <link>http://codingmeee.github.io/tags/r/</link>
+    <description>Recent content in R on Toha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://codingmeee.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R - ggplot2 error solution </title>
+      <link>http://codingmeee.github.io/post/r-ggplot2-error-solution/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://codingmeee.github.io/post/r-ggplot2-error-solution/</guid>
+      <description>R - ggplot2 설치 오류 해결 ggplot2가 실행 되지 않아 (정확히 말하면 vctrs 패키지 설치 오류) 해결 방법을 공유 합니다.
+ggplot2을 아래와 같이 설치 하였습니다.
+install.packages(&amp;#34;ggplot2&amp;#34;) 그리고 아래와 같이 라이브러리를 로드 하였습니다.
+하지만, 에러가 나와서 당황했습니다.
+&amp;gt; library(ggplot2) 에러: package or namespace load failed for ‘ggplot2’: .onLoad가 loadNamespace()에서 &amp;#39;pillar&amp;#39;때문에 실패했습니다: 호출: utils::packageVersion(&amp;#34;vctrs&amp;#34;) 에러: ‘vctrs’이라고 불리는 패키지가 없습니다 패키지가 설치 되지 않았구나&amp;hellip; 하고 아래와 같은 명령어로 패키지를 설치하려 했으나, 에러가 납니다.</description>
+    </item>
+    
+  </channel>
+</rss>
