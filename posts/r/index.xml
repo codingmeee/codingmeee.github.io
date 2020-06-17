@@ -2,23 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Codingmeee</title>
-    <link>http://codingmeee.github.io/categories/r/</link>
+    <link>http://codingmeee.github.io/posts/r/</link>
     <description>Recent content in R on Codingmeee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
     <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://codingmeee.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://codingmeee.github.io/posts/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>R</title>
-      <link>http://codingmeee.github.io/posts/r/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://codingmeee.github.io/posts/r/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>R - ggplot2 error solution </title>
