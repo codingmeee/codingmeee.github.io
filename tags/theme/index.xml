@@ -13,10 +13,10 @@
     
     <item>
       <title>Soho Theme</title>
-      <link>http://codingmeee.github.io/post/markdown/soho/</link>
+      <link>http://codingmeee.github.io/posts/markdown/soho/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://codingmeee.github.io/post/markdown/soho/</guid>
+      <guid>http://codingmeee.github.io/posts/markdown/soho/</guid>
       <description>Soho is a minimalist two-column hugo theme based on Hyde and inspired by the success of Flex.
 Features  Mobile First Responsive Semantic SEO Best Practices Open Graph Rich Snippets (JSON-LD) Twitter Card Pagination Customizable Support all Hugo Internals  Integrations  Disqus Google Analytics  </description>
     </item>

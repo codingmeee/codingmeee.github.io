@@ -13,10 +13,10 @@
     
     <item>
       <title>R - ggplot2 error solution </title>
-      <link>http://codingmeee.github.io/post/r/r-ggplot2-error-solution/</link>
+      <link>http://codingmeee.github.io/posts/r/r-ggplot2-error-solution/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://codingmeee.github.io/post/r/r-ggplot2-error-solution/</guid>
+      <guid>http://codingmeee.github.io/posts/r/r-ggplot2-error-solution/</guid>
       <description>R - ggplot2 설치 오류 해결 ggplot2가 실행 되지 않아 (정확히 말하면 vctrs 패키지 설치 오류) 해결 방법을 공유 합니다.
 ggplot2을 아래와 같이 설치 하였습니다.
 install.packages(&amp;#34;ggplot2&amp;#34;) 그리고 아래와 같이 라이브러리를 로드 하였습니다.

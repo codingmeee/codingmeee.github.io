@@ -8,12 +8,17 @@
   </url>
   
   <url>
+    <loc>http://codingmeee.github.io/</loc>
+    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://codingmeee.github.io/tags/ggplot2/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/</loc>
+    <loc>http://codingmeee.github.io/posts/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +33,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/r/r-ggplot2-error-solution/</loc>
+    <loc>http://codingmeee.github.io/posts/r/r-ggplot2-error-solution/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,22 +43,12 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://codingmeee.github.io/tags/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codingmeee.github.io/post/markdown/soho/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/soho/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/contact/</loc>
+    <loc>http://codingmeee.github.io/posts/contact/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,7 +78,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/markdown-syntax/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,7 +103,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/rich-content/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +113,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/placeholder-text/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,7 +123,7 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/math-typesetting/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,17 +133,13 @@
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/post/markdown/emoji-support/</loc>
+    <loc>http://codingmeee.github.io/posts/markdown/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://codingmeee.github.io/about/</loc>
+    <loc>http://codingmeee.github.io/posts/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codingmeee.github.io/tags/index/</loc>
   </url>
   
 </urlset>
